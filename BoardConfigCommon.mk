@@ -34,9 +34,6 @@ TARGET_USES_ION := true
 # Healthd
 BOARD_HAL_STATIC_LIBRARIES := libhealthd.msm
 
-# Qualcomm support
-BOARD_USES_QCOM_HARDWARE := true
-
 # Recovery
 TARGET_RECOVERY_DEVICE_DIRS += device/samsung/qcom-common
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"

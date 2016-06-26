@@ -25,7 +25,7 @@ import android.provider.Settings;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import org.cyanogenmod.internal.util.ScreenType;
+import com.cyanogenmod.settings.device.ScreenType;
 
 public class TouchscreenGestureSettings extends PreferenceActivity {
 
