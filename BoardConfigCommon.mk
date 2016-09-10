@@ -27,12 +27,16 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 BOARD_HARDWARE_CLASS += hardware/samsung/cmhw
 
 # Graphics
-USE_OPENGL_RENDERER := true
 TARGET_USES_C2D_COMPOSITION := true
 TARGET_USES_ION := true
+<<<<<<< HEAD
 
 # Healthd
 BOARD_HAL_STATIC_LIBRARIES := libhealthd.msm
+=======
+# Qualcomm support
+BOARD_USES_QCOM_HARDWARE := true
+>>>>>>> b0b67ad3800f9232ba383097bf2c38e3419e5ac0
 
 # Recovery
 TARGET_RECOVERY_DEVICE_DIRS += device/samsung/qcom-common
