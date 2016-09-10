@@ -23,3 +23,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.call_ring.multiple=0
+
+# Charger images
+PRODUCT_PACKAGES += \
+    charger_res_images
